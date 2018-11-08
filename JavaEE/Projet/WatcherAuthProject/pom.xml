@@ -20,15 +20,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>tp</artifactId>
+        <artifactId>Projet</artifactId>
         <groupId>fr.cpe</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-5IRC2018-SNAPSHOT</version>
     </parent>
 
-    <artifactId>tp-ejb</artifactId>
+    <artifactId>WatcherAuthProject</artifactId>
     <packaging>ejb</packaging>
 
-    <name>tp: EJB Module</name>
+    <name>Projet: EJB Module (WatcherAuthProject)</name>
 
     <url>http://wildfly.org</url>
     <licenses>
@@ -41,6 +41,11 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>fr.cpe</groupId>
+            <artifactId>MiddleAuthWatcherEJBClient</artifactId>
+            <scope>provided</scope>
+        </dependency>
         <!-- Declare the APIs we depend on and need for compilation. All of 
             them are provided by JBoss WildFly -->
 
@@ -79,7 +84,6 @@
             <artifactId>jboss-jms-api_2.0_spec</artifactId>
             <scope>provided</scope>
         </dependency>
-
 
 
         <!-- Test scope dependencies -->

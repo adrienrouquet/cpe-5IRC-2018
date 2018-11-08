@@ -20,15 +20,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>tp</artifactId>
+        <artifactId>Projet</artifactId>
         <groupId>fr.cpe</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-5IRC2018-SNAPSHOT</version>
     </parent>
 
-    <artifactId>tp-ejb</artifactId>
+    <artifactId>MiddleAuthWatcherEJBClient</artifactId>
     <packaging>ejb</packaging>
 
-    <name>tp: EJB Module</name>
+    <name>Projet: EJB Module (MiddleAuthWatcherEJBClient)</name>
 
     <url>http://wildfly.org</url>
     <licenses>
@@ -73,13 +73,6 @@
             <artifactId>hibernate-validator</artifactId>
             <scope>provided</scope>
         </dependency>
-
-        <dependency>
-            <groupId>org.jboss.spec.javax.jms</groupId>
-            <artifactId>jboss-jms-api_2.0_spec</artifactId>
-            <scope>provided</scope>
-        </dependency>
-
 
 
         <!-- Test scope dependencies -->
